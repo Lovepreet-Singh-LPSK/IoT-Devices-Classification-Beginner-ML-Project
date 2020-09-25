@@ -37,12 +37,12 @@ Steps to Follow:
 - 7.) To cross-check that KNN is the only good algorithm to apply we applied the Logistic Regression which assumes that Dataset is linearly separable. But our dataset is forming dense clusters that are not linearly separable. So we got almost 70% accuracy while applying Logistic Regression and 99.95% with KNN.
 ### Few Important Points and Reasons →
 - KNN algorithm performed well and we got about 99.95% accuracy. It is because IoT Devices are forming their dense clusters, And when new datapoint comes for classification it falls in one of the 28-clusters(because we have 28 IoT Devices). KNN works on the principle of Euclidean distance and therefore distance measurement performed well in case of dense clusters of different classes. In fig 2, we can see from the graphs of IoT Devices (2 IoT taken here) that all instances of the dataset are forming dense clusters.
-![](https://github.com/Lovepreet-Singh-LPSK/IoT-Devices-Classification/blob/master/pic/5.png=100x100)
-![](https://github.com/Lovepreet-Singh-LPSK/IoT-Devices-Classification/blob/master/pic/6.png=100x100)
+![](https://github.com/Lovepreet-Singh-LPSK/IoT-Devices-Classification/blob/master/pic/5.png)
+![](https://github.com/Lovepreet-Singh-LPSK/IoT-Devices-Classification/blob/master/pic/6.png)
 - Logistic Regression is not like KNN, it assumes that data is almost linearly separable. This is because it draws linear hyper-plane or decision boundaries for classification. But this dataset is not linearly separable as shown in fig 3. Therefore, Logistic regression is unable to classify this non-linearly separable dataset.
-![](https://github.com/Lovepreet-Singh-LPSK/IoT-Devices-Classification/blob/master/pic/7.png=100x100)
+![](https://github.com/Lovepreet-Singh-LPSK/IoT-Devices-Classification/blob/master/pic/7.png)
 ## We finally used the FLASK Python Package for User interaction with our ML model Classification.
-![](https://github.com/Lovepreet-Singh-LPSK/IoT-Devices-Classification/blob/master/pic/8.png)
+![](https://github.com/Lovepreet-Singh-LPSK/IoT-Devices-Classification/blob/master/pic/7.png)
 
 ## Contributing
 
