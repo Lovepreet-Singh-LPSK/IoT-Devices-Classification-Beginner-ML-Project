@@ -5,7 +5,7 @@ The Script is written in `python` and for UI interface `flask` is used.
 <a href="https://flask.palletsprojects.com/en/1.1.x/"><img src="https://miro.medium.com/max/438/1*0G5zu7CnXdMT9pGbYUTQLQ.png" width="150" height="100"/></a>
 ## Screenshot
 
-(https://github.com/Lovepreet-Singh-LPSK/IoT-Devices-Classification/blob/master/pic/1.png)
+![](https://github.com/Lovepreet-Singh-LPSK/IoT-Devices-Classification/blob/master/pic/1.png)
 
 ## How To Run Program
 
